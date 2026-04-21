@@ -14,7 +14,6 @@ A pixel-perfect, fully responsive implementation of the Talenix Group Training a
 
 **[Frontend Intern Assessment — Figma](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0)**
 
----
 
 ## Setup Instructions
 
