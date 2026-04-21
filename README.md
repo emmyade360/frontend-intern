@@ -23,8 +23,8 @@ A pixel-perfect, fully responsive implementation of the Talenix Group Training a
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/frontend-assessment.git
-cd frontend-assessment
+git clone https://github.com/<your-username>/frontend-intern.git
+cd frontend-intern
 
 # Install dependencies
 npm install
