@@ -4,8 +4,11 @@ A pixel-perfect, fully responsive implementation of the Talenix Group Training a
 
 ## Live URL
 
-> _Deploy to Vercel and replace this line with your live URL._
-> Example: `https://frontend-assessment-xyz.vercel.app`
+**[https://frontenderz.vercel.app](https://frontenderz.vercel.app)**
+
+## GitHub Repository
+
+**[https://github.com/emmyade360/frontend-intern](https://github.com/emmyade360/frontend-intern)**
 
 ---
 

@@ -17,7 +17,7 @@ export default function Hero() {
           className="object-cover object-center opacity-30"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/90 via-brand-dark/70 to-brand-dark/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#180b25]/90 via-[#180b25]/70 to-[#180b25]/50" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 lg:px-8">
