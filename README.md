@@ -10,6 +10,10 @@ A pixel-perfect, fully responsive implementation of the Talenix Group Training a
 
 **[https://github.com/emmyade360/frontend-intern](https://github.com/emmyade360/frontend-intern)**
 
+## Figma Design
+
+**[Frontend Intern Assessment — Figma](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0)**
+
 ---
 
 ## Setup Instructions
@@ -23,7 +27,7 @@ A pixel-perfect, fully responsive implementation of the Talenix Group Training a
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/frontend-intern.git
+git clone https://github.com/emmyade360/frontend-intern.git
 cd frontend-intern
 
 # Install dependencies
@@ -41,6 +45,18 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 npm run build
 npm start
 ```
+
+---
+
+## Tech Stack
+
+| Tool | Version | Purpose |
+|---|---|---|
+| Next.js | 16.x (App Router) | React framework, SSR, image/font optimisation |
+| React | 19.x | UI rendering |
+| Tailwind CSS | v4 | Utility-first styling — sole CSS solution |
+| TypeScript | 5.x | Type safety across all components |
+| Inter (`next/font`) | — | Typography, zero-layout-shift font loading |
 
 ---
 
@@ -138,6 +154,14 @@ Extracted from the Figma screenshot and defined as Tailwind v4 `@theme` tokens:
 
 ---
 
+## Known Issues
+
+- **Photography:** The original Figma design uses proprietary photography assets that are not publicly accessible. Unsplash images have been substituted as close visual matches. If the original assets are provided, they can be dropped into `public/images/` and the `src` props in each section component updated accordingly.
+- **Nav links:** All navigation links currently point to `#` as placeholder `href` values. In a production build these would be wired to their respective routes or anchor sections.
+- **Hero gradient on older Safari:** The hero overlay uses `color-mix()` via Tailwind's opacity modifier syntax, which requires Safari 15.4+. A solid fallback colour (`bg-brand-dark`) is applied first so the section remains readable on unsupported browsers.
+
+---
+
 ## AI Tool Disclosure
 
 This project was built with the assistance of **Claude (claude-sonnet-4-6)**, an AI assistant by Anthropic. Specifically, AI was used to:
@@ -148,15 +172,3 @@ This project was built with the assistance of **Claude (claude-sonnet-4-6)**, an
 - Draft the README content
 
 All design decisions, architecture choices, colour extraction, component decomposition, and final code review were validated and directed by the developer. No pre-built UI kit components were copied from external sources.
-
----
-
-## Tech Stack
-
-| Tool | Version | Purpose |
-|---|---|---|
-| Next.js | 16.x (App Router) | React framework, SSR, image/font optimisation |
-| React | 19.x | UI rendering |
-| Tailwind CSS | v4 | Utility-first styling — sole CSS solution |
-| TypeScript | 5.x | Type safety across all components |
-| Inter (`next/font`) | — | Typography, zero-layout-shift font loading |
